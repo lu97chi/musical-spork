@@ -1,0 +1,192 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Didact Gothic', sans-serif;
+    .contenedor{
+        height: 950px;
+        header{
+            height: 15%;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            background: url(../img/header.jpg);
+            .caja_header{  
+                background-size: cover;
+                height: 100%;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                padding: 0% 3.5%;
+                .header_text{
+                    margin: 0 auto;
+                    width: 33%;
+                    align-self: center;
+                    
+                    h1{
+                        font-size: 30px;
+                        text-align: center;
+                        color: #fff;
+                        font-family: 'Rock Salt', cursive;
+                        margin-bottom: -20px;
+                    }
+                    h2{
+                        font-size: 14px;
+                        text-align: right;
+                        padding: 0% 15% 0% 0%;
+                        text-decoration: underline;
+                        color: rgba(255,255,255,0.7);
+                        font-family: 'Rock Salt', cursive;
+                    }
+                }
+                nav{
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    padding: 0px 20px;
+                    a{
+                        font-size: 25px;
+                        text-decoration: none;
+                        color: #fff;
+                        text-align: center;
+                        border: 3px solid transparent;
+                        padding: 2px;
+                    }
+                    a:hover{
+                        transition: all .3s ease;
+                        transform: scale(1.2);
+                        color: #ccc;
+                        font-weight: bold;
+                    }
+                    .buscar{
+                        position: relative;
+                        i{
+                            position: absolute;
+                            top: 25%;
+                            left: 42%;
+                            color: rgba(255,255,255,0.8);
+                        }
+                        input[type="text"]{
+                        border-radius: 25px;
+                        border: none;
+                        background: rgba(255,255,255,0.7);
+                        text-align: center;
+                        height: 100%;
+                        }
+                    }
+                }
+            }
+        }
+        section{
+            height:70%;
+            .main{
+                width: 90%;
+                margin: 0 auto;
+                .encabezado{
+                    background: #fff;
+                    padding: 30px 0px;
+                    h2{
+                        font-size: 40px;
+                        word-spacing: 15px;
+                        letter-spacing: 2px;
+                    }
+                    .details{
+                        display: flex;
+                        flex-direction: row;
+                        padding: 5px 0px;
+                        font-size: 19px;
+                        color: rgba(0,0,0,.4);
+                        font-weight: normal;
+                        
+                        p{
+                            margin-right: 10px; 
+                        }
+                        
+                    }
+                }
+                .caja_imagen{
+                    position: relative;
+                    width: 100%;
+                    margin-top:-20px;
+                    img{
+                        width: 100%;
+                    }
+                    .caja_chingadera{
+                        border-bottom: 2px solid rgba(252, 252, 252,0.9);
+                        position: absolute;
+                        top: 30%;
+                        left: 22%;
+                        h2{
+                            font-size: 54px;
+                            color: rgb(252, 252, 252);
+                            text-shadow: rgb(0,0,0)5px 1px 16px;
+                            padding-bottom: 3px;
+                        }
+                    }
+                    .logo_img{
+                        position: absolute;
+                        top: 45%;
+                        left: 27%;
+                        width: 50%;
+                        color: #fff;
+                        font-family: 'Rock Salt', cursive;
+                        h1{
+                            text-align: center;
+                            font-size: 30px;
+                            margin-bottom: -20px;
+                        }
+                        h2{
+                            text-align: center;
+                            text-decoration: underline;
+                            color: #ccc;
+                            font-size: 14px;
+                            padding-left: 150px;
+                        }
+                       
+                    }
+                }
+                p{
+                    font-size: 20px;
+                    a{
+                        text-decoration: none;
+                        color: rgba(100,100,100,0.9);
+                    }
+                    a:hover{
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+        footer{
+            background: black;
+            height: 15.5%;
+            div{
+                background: #000;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+                a{
+                    font-size: 50px;
+                    color: #fff;
+                    padding: 10px;
+                }
+                .snap:hover{color:#fffc00};
+                .insta:hover{color:#fd1d1d};
+                .you:hover{color:#cd201f};
+                .face:hover{color:#3b5998};
+                .twitter:hover{color:#1da1f2};
+            }
+            p{
+                color: white;
+                text-align: center;
+                padding: 20px 0px;
+            }
+        }
+    }
+}
+
+
+
+
